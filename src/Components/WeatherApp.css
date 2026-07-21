@@ -1,0 +1,102 @@
+.Weather{
+    place-self: center;
+    padding: 40px;
+    border-radius:10px;
+    background-image: linear-gradient(45deg, #2f4680, #500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+form {
+     display: flex;
+    align-items: center;
+    
+}
+
+.search-bar input{
+    height: 50px;
+    border-radius: 35px;
+    padding-left: 20px;
+    color: #0a0a0b;
+    font-size: 20px;
+    margin-right: 12px;
+}
+.search-bar button{
+     border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+
+.search-bar img {
+    border-radius: 50%;
+    background-color: #ebfffc;
+    padding: 15px;
+    width: 50px;
+    cursor: pointer;
+    
+}
+
+.Weather-icon{
+    height: 200px;
+    padding: 15px;
+    margin: 15px 0px;
+    width:100;
+}
+
+.Temp{
+    height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 15px;
+
+}
+
+.Location{
+    height: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: aliceblue;
+    margin-bottom: 15px;
+    
+}
+
+.WeatherData{
+    width: 100%;
+    margin-top: 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.WeatherData .column {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.WeatherData .column span {
+
+    display: block;
+    font-size: 16px;
+}
+
+.WeatherData .column img {
+    margin-top: 10px;
+    width: 22px;
+
+
+}
